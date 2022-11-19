@@ -1,0 +1,26 @@
+Run time analysis (Worst-Case Big-O Notation) 
+
+Task 0:
+2 Get item in a list + print 7 items from a list
+O(9)
+
+Task 1:
+Nexted for loops (quadritic rate) (twice called) + set an item in set() + get len of set()
+O(2n^2 + 2n)
+
+Task 2:
+Nested for loop + get function in a dictionary + get item in a dictionary
+O(n^2 + 2n)
+
+Task 3:
+Part A:
+While loop + sort in set() + 2 x in s in set() + len in a list + 2 get items in a list + 2 simple line
+O(n + n log n + 2n + 5)
+
+Part B:
+2 x in s in set + interaction in set
+O(3n)
+
+Task 4:
+For loop + sort in set() + 2 get item in list + 2 set item in set + for loop  + 2 x in s in set + set item in set
+O(n log n + 7n + 2)
